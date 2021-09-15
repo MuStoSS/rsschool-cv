@@ -1,6 +1,6 @@
 # Tyrin Sergey
 
-I'm middle web developer. 
+I'm a middle front-end developer. 
 
 ## Contacts
 
@@ -13,13 +13,29 @@ I'm middle web developer.
 ## Experience
 
 ### 2019 - Present
-Frontend developer on project [HR Pro](https://www.directum.ru/products/hr_pro)
+Front-end developer on [HR Pro](https://www.directum.ru/products/hr_pro) project
 
 ### 2016 - 2019
-Fullstack developer on project Directum WebAccess
+Full stack developer on Directum WebAccess project
 
-### 2014-2016
-1S developer
+### 2014 - 2016
+1C developer
+
+## Education
+
+### 2008 - 2014
+**University:** Udmurt State University (UDSU)
+
+**Faculty:** Law, Social Management and Security
+
+**Speciality:** Jurisprudence
+
+### 2008 - 2013
+**University:** Udmurt State University (UDSU)
+
+**Faculty:** Information Technology and Computer Science
+
+**Speciality:** Applied Informatics
 
 
 
