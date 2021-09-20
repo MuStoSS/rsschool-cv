@@ -1,1 +1,1 @@
-https://mustoss.github.io/rsschool-cv/cv
+https://mustoss.github.io/rsschool-cv
