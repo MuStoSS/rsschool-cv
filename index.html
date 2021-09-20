@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./highlight/default.min.css">
+    <script src="./highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>Tyrin Sergey</title>
+</head>
+
+<body>
+    <div class="content">
+        <main>
+            <div class="left-column">
+                <header>
+                    <img class="photo" src="./img/Photo.jpg" alt="Photo">
+                    <div class="personal-info">
+                        <h1>Tyrin Sergey</h1>
+                        <h2>Front-end developer</h2>
+                    </div>
+                </header>
+                <div class="contacts">
+                    <ul>
+                        <li>
+                            <img src="./img/telegram.svg" alt="Telegram">
+                            <p class="contacts-item">@imustoss</p>
+                        </li>
+                        <li>
+                            <img src="./img/email.svg" alt="Email">
+                            <a class="contacts-item" href="mailto:imustoss@gmail.com">imustoss@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="abilities">
+                    <section class="skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>
+                                <p class="skill">HTML, CSS, JS</p>
+                            </li>
+                            <li>
+                                <p class="skill">React, Redux</p>
+                            </li>
+                            <li>
+                                <p class="skill">Figma</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>
+                                <p class="language">Russian - Native</p>
+                            </li>
+                            <li>
+                                <p class="language">English - Pre-intermediate</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="right-column">
+                <section>
+                    <h2>About</h2>
+                    <p>
+                        2+ years of experience as a front-end developer (React, Redux, Thunk, Redux-Saga,
+                        Styled-component, Jest). Before that, I worked as a fullstack developer with ASP.Net web
+                        applications
+                        (ASP.Net Framework, JQuery, SASS, gulp).
+                    </p>
+                </section>
+                <section>
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>
+                            <div class="info-title">
+                                <h3>Front-end developer</h3>
+                                <h4>2019 - Present</h4>
+                            </div>
+                            <h5>DIRECTUM</h5>
+                            <p>
+                                Front-end developer on <a href="https://www.directum.ru/products/hr_pro">HR Pro</a>
+                                project
+                            </p>
+                        </li>
+                        <li>
+                            <div class="info-title">
+                                <h3>Full stack developer</h3>
+                                <h4>2016 - 2019</h4>
+                            </div>
+                            <h5>DIRECTUM</h5>
+                            <p>Full stack developer on Directum WebAccess project</p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Education</h2>
+                    <ul>
+                        <li>
+                            <div class="info-title">
+                                <h3>Udmurt State University (UDSU)</h3>
+                                <h4>2008 - 2013</h4>
+                            </div>
+                            <p>Faculty: Information Technology and Computer Science</p>
+                            <p>Specialization: Applied Informatics</p>
+                        </li>
+                        <li>
+                            <div class="info-title">
+                                <h3>Udmurt State University (UDSU)</h3>
+                                <h4>2008 - 2014</h4>
+                            </div>
+                            <p>Faculty: Law, Social Management and Security</p>
+                            <p>Specialization: Jurisprudence</p>
+                        </li>
+                    </ul>
+                </section>
+                <article>
+                    <h2 class="collapsible">Code example</h2>
+                    <div class="code">
+                        <pre>
+                            <code class="language-javascript hljs">function explode(s) {
+  const nums = s.split('')
+    .map(Number);
+  let result = '';
+  nums.forEach(num => {
+    let i = 0;
+    while (i &lt; num) {
+      result += num;
+      i++;
+    }
+  });
+  return result;
+}</code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/MuStoSS" title="GitHub">
+                <img class="github-img" src="./img/github.svg" alt="GitHub" />
+            </a>
+            <p>© 2021</p>
+            <a href="https://rs.school/js/" title="rsschool">
+                <img class="rsschool-img" src="./img/rsschool.svg" alt="rsschool" />
+            </a>
+        </footer>
+    </div>
+    <script>
+        var collapsibleElements = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < collapsibleElements.length; i++) {
+            collapsibleElements[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var code = this.nextElementSibling;
+                if (code.style.maxHeight) {
+                    code.style.maxHeight = null;
+                } else {
+                    code.style.maxHeight = code.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <script>
+        let selfChecking = `1. вёрстка валидная - 10
+2. вёрстка семантическая - 20
+3. для оформления СV используются css-стили - 10
+4. контент размещается в блоке, который горизонтально центрируется на странице - 10
+5. вёрстка адаптивная - 10
+6. есть адаптивное бургер-меню - 0
+7. на странице СV присутствует изображение - фото или аватарка автора CV - 10
+8. контакты для связи и перечень навыков оформлены в виде списка ul > li - 10
+9. CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского - 10
+10. CV содержит пример вашего кода (например, решение задачи с сайта codewars) с подсветкой кода - 10
+11. CV содержит изображения-ссылки на выполненные вами проекты - 0
+12. CV выполнено на английском языке - 10
+13. выполнены требования к Pull Request - 10
+14. есть видеорезюме автора CV на английском языке - 0
+15. дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию - 10
+Итоговая оценка: 130 баллов`;
+        console.log(selfChecking);
+    </script>
+</body>
+
+</html>
