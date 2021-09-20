@@ -13,12 +13,15 @@ I'm a middle front-end developer.
 ## Experience
 
 ### 2019 - Present
+DIRECTUM
 Front-end developer on [HR Pro](https://www.directum.ru/products/hr_pro) project
 
 ### 2016 - 2019
+DIRECTUM
 Full stack developer on Directum WebAccess project
 
 ### 2014 - 2016
+NPO Computer
 1C developer
 
 ## Education
@@ -36,7 +39,3 @@ Full stack developer on Directum WebAccess project
 **Faculty:** Information Technology and Computer Science
 
 **Speciality:** Applied Informatics
-
-
-
-
