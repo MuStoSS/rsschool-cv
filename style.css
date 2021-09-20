@@ -85,7 +85,7 @@ li .contacts-item {
 }
 
 .right-column {
-    width: 100%;
+    width: auto;
     padding: 20px;
 }
 
@@ -133,3 +133,34 @@ footer .rsschool-img {
     height: 26px;
     width: 73px;
 }
+
+@media (max-width: 575px){ 
+    main {
+        display: block; 
+    }
+
+    .left-column {
+        min-width: 280px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    main {
+        display: block;
+    }    
+
+    header {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .contacts ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .abilities {
+        display: flex;
+        justify-content: space-around;
+    }
+ }
